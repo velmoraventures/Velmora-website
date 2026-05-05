@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velmora Ventures | Luxury Real Estate Gurgaon</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0; font-family:'Inter', sans-serif; background:#0b0b0b; color:#fff;}
+h1,h2,h3 {font-family:'Playfair Display', serif;}
+
+.container {width:90%; max-width:1200px; margin:auto;}
+
+/* HEADER */
+.header {
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,0.6);
+text-align:center;
+padding:15px;
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+.header h2 {
+margin:0;
+letter-spacing:2px;
+font-size:18px;
+}
+
+/* HERO */
+.hero {
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+background-size:cover;
+}
+
+.hero h1 {font-size:48px; margin-top:40px;}
+.hero p {color:#ccc;}
+
+.btn {
+display:inline-block;
+margin:10px;
+padding:12px 30px;
+border-radius:30px;
+text-decoration:none;
+font-size:14px;
+}
+.btn-primary {background:#fff; color:#000;}
+.btn-outline {border:1px solid #fff; color:#fff;}
+
+.section {padding:80px 0;}
+
+.projects, .developers {
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+gap:30px;
+}
+
+.card {
+background:#111;
+border-radius:15px;
+overflow:hidden;
+transition:0.3s;
+}
+.card:hover {transform:translateY(-10px);}
+
+.card img {
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content {padding:20px;}
+
+input {
+width:280px;
+padding:12px;
+margin:10px;
+border:none;
+border-radius:25px;
+}
+
+/* FOOTER */
+.footer {
+text-align:center;
+padding:40px;
+color:#aaa;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px 18px;
+border-radius:50%;
+color:#fff;
+font-size:20px;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+<h2>VELMORA VENTURES</h2>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+<div>
+<h1>Luxury Real Estate in Gurgaon</h1>
+<p>Velmora Ventures | Deals in Luxury & Ultra Luxury Properties</p>
+<a href="tel:9876482112" class="btn btn-primary">Call Now</a>
+<a href="https://wa.me/919876482112" class="btn btn-outline">WhatsApp</a>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section container">
+<h2 style="text-align:center;">Featured Luxury Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c">
+<div class="card-content">
+<h3>Trehan 71 Gurgaon</h3>
+<p>Starting ₹2.12 Cr | Prime Location</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d">
+<div class="card-content">
+<h3>Krisumi Residences</h3>
+<p>Luxury Japanese Living | Limited Deals</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- DEVELOPERS -->
+<section class="section container">
+<h2 style="text-align:center;">Top Luxury Developers in Gurgaon</h2>
+
+<div class="developers">
+
+<div class="card"><div class="card-content"><h3>DLF Limited</h3><p>Camellias | Magnolias | Crest</p></div></div>
+<div class="card"><div class="card-content"><h3>M3M India</h3><p>Golf Estate | Capital</p></div></div>
+<div class="card"><div class="card-content"><h3>Elan Group</h3><p>Presidential | Emperor</p></div></div>
+<div class="card"><div class="card-content"><h3>Experion</h3><p>Windchants | Trillion</p></div></div>
+<div class="card"><div class="card-content"><h3>Central Park</h3><p>Resorts | Flower Valley</p></div></div>
+<div class="card"><div class="card-content"><h3>Sobha</h3><p>International City</p></div></div>
+<div class="card"><div class="card-content"><h3>Godrej</h3><p>Aristocrat | Godrej Air</p></div></div>
+<div class="card"><div class="card-content"><h3>Paras</h3><p>Paras Quartier</p></div></div>
+<div class="card"><div class="card-content"><h3>Mahindra</h3><p>Luminare</p></div></div>
+<div class="card"><div class="card-content"><h3>TARC</h3><p>TARC Ishva</p></div></div>
+
+</div>
+</section>
+
+<!-- FORM -->
+<section class="section" style="text-align:center;">
+<h2>Get Exclusive Luxury Deals</h2>
+<p style="color:#aaa;">Velmora Ventures will help you find the best property</p>
+
+<input type="text" placeholder="Your Name"><br>
+<input type="text" placeholder="Phone Number"><br>
+
+<a href="https://wa.me/919876482112?text=Hi%20Velmora%20Ventures%2C%20I%20am%20interested%20in%20luxury%20properties" 
+class="btn btn-primary">Submit Inquiry</a>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>Velmora Ventures | Luxury Real Estate Consultants</p>
+<p>Contact: Ankush Verma | 📞 9876482112</p>
+</div>
+
+<!-- WhatsApp Floating -->
+<a href="https://wa.me/919876482112" class="whatsapp">💬</a>
+
+</body>
+</html>
